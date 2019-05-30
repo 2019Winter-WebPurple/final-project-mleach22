@@ -1,0 +1,104 @@
+/*
+* Megan Leach
+* May 30, 2019
+* Final Project
+*/
+
+/* The Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 85%;
+    background-color: #bffbce;/*this is the color of the background for the page*/
+    margin: 15px auto;
+    border: 1px solid #ef9c00;/*the specifications of the border going size, type, and color*/
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;/*aligns the text to the center of the section*/
+}
+
+h2 {
+    padding: 10px;
+}
+
+header {
+    border-bottom: 2px solid #ef9c00;
+}
+
+#sidebarA {
+    width: 23%;
+    height: 525px;
+    float: left;/*floats the sidebar to the left of the main section*/
+    border-right: 2px solid #ef9c00;
+    text-align: center;
+}
+
+#wangari {
+    border: 2px solid #ef9c00
+}
+
+#FF {
+    text-align: left;
+}
+
+main {
+    width: 50%;
+    height: 525px;
+    float: left;
+    text-align: center
+}
+
+#bio {
+    text-align: left;
+}
+
+#logo {
+    height: 225px; 
+    width: 75%;
+    margin: 20px; 
+    border: 2px solid #ef9c00
+}
+
+#sidebarB {
+    width: 26%;/*specifies the width of the section*/
+    height: 525px;/*specifies the height of the section*/
+    float: right;
+    border-left: 2px solid #ef9c00;
+    text-align: center;
+  
+}
+
+#list {
+    text-align: left;
+}
+
+#wangari2 {
+    height: 175px; 
+    width: 43%;
+    margin: 10px;/*gives the image space so it isn't squished with all of the information*/
+    border: 2px solid #ef9c00
+}
+
+footer {
+    clear: both;
+    border-top: 2px solid #ef9c00;
+}
+
+#note {
+    text-align:right;
+}
+
+ul, li {
+    list-style-position: inside;/*makes sure that the list remains in its designated section*/
+}
+
+#bp {
+    text-align: center;
+    font-weight: bold;
+}
